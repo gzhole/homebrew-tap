@@ -11,7 +11,7 @@ class Agentshield < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/gzhole/Agentic-gateway/releases/download/v0.1.0/agentshield_0.1.0_darwin_amd64.tar.gz"
-      sha256 "59bd38a395addaa5b89b3ae8a24cb7f87d28cb078108a86a4c85753d623913d2"
+      sha256 "ab2b14632e5354199c670a71f60b9080d4a46e6453d589e688dfe2aeb28a2204"
 
       def install
         bin.install "agentshield"
@@ -19,7 +19,7 @@ class Agentshield < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/gzhole/Agentic-gateway/releases/download/v0.1.0/agentshield_0.1.0_darwin_arm64.tar.gz"
-      sha256 "c0bceea78c6c3697088a1963987e4f435b947b5f4ad968f962040220a351edef"
+      sha256 "d3a8ffcdfee84ebbf25edcbcfdf82e51bd8af7274bba73eac99a105134e360e1"
 
       def install
         bin.install "agentshield"
@@ -30,14 +30,14 @@ class Agentshield < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/gzhole/Agentic-gateway/releases/download/v0.1.0/agentshield_0.1.0_linux_amd64.tar.gz"
-      sha256 "94eaca7f8679a8c53233732427b8a4cd6fa7c85688d4ab640eee0326f79bffc7"
+      sha256 "15bcaac098fc6a0a7159c834c9f817036745bdf9e4c8fff8734bc4d61c73d61a"
       def install
         bin.install "agentshield"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/gzhole/Agentic-gateway/releases/download/v0.1.0/agentshield_0.1.0_linux_arm64.tar.gz"
-      sha256 "cf172f695e9ca4cc22793c5e40b46e065c99fe18fbd0fabe93917196c2bdd392"
+      sha256 "9316085559ae7daf19a4cd355545c0e5f246f784ff0b4df38538fb7407d5ffa4"
       def install
         bin.install "agentshield"
       end
