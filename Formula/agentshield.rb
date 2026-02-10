@@ -11,15 +11,15 @@ class Agentshield < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/gzhole/AI-Agentic-Shield/releases/download/v0.1.0/agentshield_0.1.0_darwin_amd64.tar.gz"
-      sha256 "d64dcc31d2eea273fe0dab5d74539578185bf05440372d3d6f0e1ad3259619fe"
+      sha256 "b600067996ac8957bde7edf3141ccc7276bc3eda0fb5b5bd7420453d801341d0"
 
       def install
         bin.install "agentshield"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/gzhole/LLM-Agentic-Shield/releases/download/v0.1.0/agentshield_0.1.0_darwin_arm64.tar.gz"
-      sha256 "7180c041de45de7a65bc3afb88d1624e52a9ae7868e1297be370f486c65e8455"
+      url "https://github.com/gzhole/AI-Agentic-Shield/releases/download/v0.1.0/agentshield_0.1.0_darwin_arm64.tar.gz"
+      sha256 "411e56fa60260066d3c785829c0a835c219e4f2cb4ffcd151c51264bd4ed5254"
 
       def install
         bin.install "agentshield"
@@ -29,15 +29,15 @@ class Agentshield < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/gzhole/LLM-Agentic-Shield/releases/download/v0.1.0/agentshield_0.1.0_linux_amd64.tar.gz"
-      sha256 "69567f22c12d76b5a9d486ef22cd8dce90c41a1b863cde071f4c3fc41d5906fc"
+      url "https://github.com/gzhole/AI-Agentic-Shield/releases/download/v0.1.0/agentshield_0.1.0_linux_amd64.tar.gz"
+      sha256 "ed8d8e2bf5a10d9a6c22347394205cc978dd4d5e1828088c01abe4e38847a43d"
       def install
         bin.install "agentshield"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/gzhole/LLM-Agentic-Shield/releases/download/v0.1.0/agentshield_0.1.0_linux_arm64.tar.gz"
-      sha256 "6a2d7a42569d9ff53d0de345dfb81ea9ad6a3793df093b58e8312218a74c24de"
+      url "https://github.com/gzhole/AI-Agentic-Shield/releases/download/v0.1.0/agentshield_0.1.0_linux_arm64.tar.gz"
+      sha256 "781ade908083ae41364305ad5e1e14962c3b4c3b5f917d2909f7398a2b03fc79"
       def install
         bin.install "agentshield"
       end
